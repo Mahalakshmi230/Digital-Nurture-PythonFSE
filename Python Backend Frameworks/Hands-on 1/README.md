@@ -3,7 +3,8 @@ Task 1: Understand the Request-Response Cycle
 -------------------------------------------------------------------
 1. Request–Response Cycle in Django
 -------------------------------------------------------------------
-""" When a user sends a GET request to /api/courses/, Django processes it as follows:
+""" 
+When a user sends a GET request to /api/courses/, Django processes it as follows:
 
 The browser sends an HTTP request.
 Django receives the request.
@@ -17,7 +18,8 @@ Django sends the response back to the browser. """
 -------------------------------------------------------------------
 2. Middleware
 -------------------------------------------------------------------
-""" Middleware sits between the incoming request and the view, and also between the view and the outgoing response.
+"""
+Middleware sits between the incoming request and the view, and also between the view and the outgoing response.
 
 It processes requests before they reach the view and responses before they are sent back to the client.
 
@@ -28,11 +30,13 @@ SecurityMiddleware
 Adds security features such as HTTPS redirects and security headers.
 SessionMiddleware
 
-Enables session management so user-specific data can be stored across multiple requests. """
+Enables session management so user-specific data can be stored across multiple requests.
+"""
 -------------------------------------------------------------------
 3. WSGI vs ASGI
 -------------------------------------------------------------------
-""" WSGI (Web Server Gateway Interface)
+""" 
+WSGI (Web Server Gateway Interface)
 
 Supports synchronous request handling.
 Suitable for traditional web applications.
@@ -42,11 +46,13 @@ ASGI (Asynchronous Server Gateway Interface)
 
 Supports asynchronous request handling.
 Handles WebSockets, long-lived connections, and real-time applications.
-Used when building chat applications, live notifications, or other asynchronous services. """
+Used when building chat applications, live notifications, or other asynchronous services. 
+"""
 -------------------------------------------------------------------
 4. MVC vs Django MVT
 -------------------------------------------------------------------
-""" MVC Architecture
+""" 
+MVC Architecture
 
 Model -> Handles database operations. View -> Handles the user interface. Controller -> Handles business logic and user requests.
 
@@ -56,7 +62,8 @@ Model -> Database layer (same as MVC Model). View -> Contains business logic (ac
 
 MVC Mapping to Django:
 
-MVC Model = Django Model MVC View = Django Template MVC Controller = Django View """
+MVC Model = Django Model MVC View = Django Template MVC Controller = Django View 
+"""
 
 Task 2: Scaffold and Explore the Django Project
 """
