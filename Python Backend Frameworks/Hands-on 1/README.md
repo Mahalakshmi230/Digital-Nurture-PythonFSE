@@ -4,6 +4,7 @@ Task 1: Understand the Request-Response Cycle
 1. Request–Response Cycle in Django
 -------------------------------------------------------------------
 """ 
+
 When a user sends a GET request to /api/courses/, Django processes it as follows:
 
 The browser sends an HTTP request.
@@ -25,6 +26,7 @@ The View returns an HttpResponse (or renders a Template).
 Django sends the response back to the browser.
 
 """
+
 -------------------------------------------------------------------
 2. Middleware
 -------------------------------------------------------------------
@@ -44,9 +46,11 @@ SessionMiddleware
 Enables session management so user-specific data can be stored across multiple requests.
 
 """
+
 -------------------------------------------------------------------
 3. WSGI vs ASGI
 -------------------------------------------------------------------
+
 """ 
 
 WSGI (Web Server Gateway Interface)
@@ -68,10 +72,12 @@ Handles WebSockets, long-lived connections, and real-time applications.
 Used when building chat applications, live notifications, or other asynchronous services. 
 
 """
+
 -------------------------------------------------------------------
 4. MVC vs Django MVT
 -------------------------------------------------------------------
 """ 
+
 MVC Architecture
 
 Model -> Handles database operations. View -> Handles the user interface. Controller -> Handles business logic and user requests.
@@ -83,9 +89,11 @@ Model -> Database layer (same as MVC Model). View -> Contains business logic (ac
 MVC Mapping to Django:
 
 MVC Model = Django Model MVC View = Django Template MVC Controller = Django View 
+
 """
 
 Task 2: Scaffold and Explore the Django Project
+
 """
 
 ## settings.py
