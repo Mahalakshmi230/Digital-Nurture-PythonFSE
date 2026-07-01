@@ -29,6 +29,7 @@ Django sends the response back to the browser.
 2. Middleware
 -------------------------------------------------------------------
 """
+
 Middleware sits between the incoming request and the view, and also between the view and the outgoing response.
 
 It processes requests before they reach the view and responses before they are sent back to the client.
@@ -47,17 +48,25 @@ Enables session management so user-specific data can be stored across multiple r
 3. WSGI vs ASGI
 -------------------------------------------------------------------
 """ 
+
 WSGI (Web Server Gateway Interface)
 
 Supports synchronous request handling.
+
 Suitable for traditional web applications.
+
 Django uses WSGI by default.
+
 Best for applications that do not require real-time communication.
+
 ASGI (Asynchronous Server Gateway Interface)
 
 Supports asynchronous request handling.
+
 Handles WebSockets, long-lived connections, and real-time applications.
+
 Used when building chat applications, live notifications, or other asynchronous services. 
+
 """
 -------------------------------------------------------------------
 4. MVC vs Django MVT
