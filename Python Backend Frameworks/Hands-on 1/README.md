@@ -7,14 +7,24 @@ Task 1: Understand the Request-Response Cycle
 When a user sends a GET request to /api/courses/, Django processes it as follows:
 
 The browser sends an HTTP request.
+
 Django receives the request.
+
 The URL Dispatcher (urls.py) matches the requested URL.
+
 The matched URL calls the appropriate View.
+
 The View interacts with the Model to retrieve data from the database.
+
 The Model executes the database query and returns the results.
+
 The View processes the data.
+
 The View returns an HttpResponse (or renders a Template).
-Django sends the response back to the browser. """
+
+Django sends the response back to the browser.
+
+"""
 -------------------------------------------------------------------
 2. Middleware
 -------------------------------------------------------------------
@@ -31,6 +41,7 @@ Adds security features such as HTTPS redirects and security headers.
 SessionMiddleware
 
 Enables session management so user-specific data can be stored across multiple requests.
+
 """
 -------------------------------------------------------------------
 3. WSGI vs ASGI
