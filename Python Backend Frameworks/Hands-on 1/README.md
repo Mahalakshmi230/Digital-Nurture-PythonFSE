@@ -88,19 +88,19 @@ MVC Model = Django Model MVC View = Django Template MVC Controller = Django View
 Task 2: Scaffold and Explore the Django Project
 """
 
-settings.py
+## settings.py
 ```
 INSTALLED_APPS = [ 'django.contrib.admin', 'django.contrib.auth', 'django.contrib.contenttypes', 'django.contrib.sessions', 'django.contrib.messages', 'django.contrib.staticfiles', 'courses', ]
 ```
 
-views.py
+## views.py
 ``` 
 from django.http import HttpResponse
 
 def hello_view(request): return HttpResponse("Course Management API is running")
 ```
 
-Courses/urls.py
+## Courses/urls.py
 ```
 
 from django.urls import path from .views import hello_view
@@ -108,7 +108,7 @@ from django.urls import path from .views import hello_view
 urlpatterns = [ path("hello/", hello_view), ]
 ```
 
-Courses/urls.py
+## Courses/urls.py
 ```
 
 from django.urls import path, include
@@ -116,7 +116,7 @@ from django.urls import path, include
 urlpatterns = [ path("admin/", admin.site.urls), path("api/", include("courses.urls")), ]
 ```
 
-OUTPUT
+## OUTPUT
 http://127.0.0.1:8000/api/hello/
 
 <img width="946" height="510" alt="Screenshot 2026-07-01 201401" src="https://github.com/user-attachments/assets/b239ddb6-9372-426e-abb9-9060abba9f50" />
