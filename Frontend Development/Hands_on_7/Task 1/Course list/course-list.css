@@ -1,0 +1,24 @@
+h2{
+    text-align:center;
+    color:darkgreen;
+}
+
+input{
+    display:block;
+    margin:20px auto;
+    width:300px;
+    padding:10px;
+}
+
+.cards{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.no-data{
+    text-align:center;
+    color:red;
+    font-size:18px;
+}
