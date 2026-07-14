@@ -1,0 +1,141 @@
+.portal {
+  font-family: Arial, sans-serif;
+}
+
+
+.header {
+
+  background-color:#24384d;
+  color:white;
+
+  padding:25px 60px;
+
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+
+}
+
+
+.header h1 {
+
+  font-size:25px;
+
+}
+
+
+.header a {
+
+  color:white;
+  margin-left:25px;
+  text-decoration:none;
+
+}
+
+
+.courses {
+
+  text-align:center;
+
+  margin-top:20px;
+
+}
+
+
+.courses h2 {
+
+  font-size:20px;
+
+}
+
+
+.search {
+
+  width:200px;
+
+  padding:8px;
+
+  margin:15px;
+
+}
+
+
+.course-container {
+
+  display:flex;
+
+  justify-content:center;
+
+  gap:15px;
+
+  flex-wrap:wrap;
+
+}
+
+
+
+.course-card {
+
+
+  width:170px;
+
+  padding:20px;
+
+  background:white;
+
+  border-radius:8px;
+
+  box-shadow:0 2px 8px gray;
+
+  text-align:center;
+
+}
+
+
+.course-card h3 {
+
+  font-size:15px;
+
+}
+
+
+.course-card button {
+
+
+  background:#24384d;
+
+  color:white;
+
+  border:none;
+
+  padding:8px 15px;
+
+  border-radius:4px;
+
+}
+
+
+
+.profile {
+
+
+  width:250px;
+
+  margin:40px auto;
+
+  padding:25px;
+
+  text-align:center;
+
+  box-shadow:0 2px 8px gray;
+
+  border-radius:8px;
+
+}
+
+
+.profile h2 {
+
+  font-size:20px;
+
+}

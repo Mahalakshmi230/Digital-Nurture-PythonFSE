@@ -1,0 +1,63 @@
+<div class="portal">
+
+  <header class="header">
+
+    <h1>Student Portal</h1>
+
+    <nav>
+      <a>Home</a>
+      <a>Courses</a>
+      <a>Profile</a>
+    </nav>
+
+  </header>
+
+
+  <section class="courses">
+
+    <h2>Available Courses</h2>
+
+    <input 
+      type="text" 
+      placeholder="Search Courses"
+      class="search"
+    >
+
+
+    <div class="course-container">
+
+      <div class="course-card" *ngFor="let course of courses">
+
+        <h3>{{course.title}}</h3>
+
+        <p>Code: {{course.code}}</p>
+
+        <p>Credits: {{course.credits}}</p>
+
+        <p>Grade: {{course.grade}}</p>
+
+        <button>
+          Enroll
+        </button>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <section class="profile">
+
+    <h2>Student Profile</h2>
+
+    <p>Name : Mahalakshmi R</p>
+
+    <p>Department : AI & DS</p>
+
+    <p>Semester : 7</p>
+
+  </section>
+
+
+</div>
