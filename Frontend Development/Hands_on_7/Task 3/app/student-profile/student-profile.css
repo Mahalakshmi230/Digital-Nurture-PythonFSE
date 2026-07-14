@@ -1,0 +1,31 @@
+:host {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  width: 350px;
+  text-align: left;
+}
+
+h2 {
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 12px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+}
+
+p {
+  color: red;
+  margin-top: -8px;
+}
